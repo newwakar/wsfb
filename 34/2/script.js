@@ -42,7 +42,7 @@ function renderPDF(pdfjs, url, container, options) {
 }  
 
 getPdfjs().then((pdfjs) => {
-  const url = "34/Corporate Companies and Its Crimes.pdf"
+  const url = "https://wakarsuggestionsfb.vercel.app/34/Corporate Companies and Its Crimes.pdf"
   const container = document.getElementById("pdf-viewer")
   renderPDF(pdfjs, url, container)
 })
