@@ -42,7 +42,7 @@ function renderPDF(pdfjs, url, container, options) {
 }  
 
 getPdfjs().then((pdfjs) => {
-  const url = "https://assets.codepen.io/238794/file-example_PDF_1MB.pdf"
+  const url = "34/India and It's Scams.pdf"
   const container = document.getElementById("pdf-viewer")
   renderPDF(pdfjs, url, container)
 })
