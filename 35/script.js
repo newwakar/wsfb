@@ -42,7 +42,7 @@ function renderPDF(pdfjs, url, container, options) {
 }  
 
 getPdfjs().then((pdfjs) => {
-  const url = "https://wakarsuggestionsfb.vercel.app/35/Complain on CP to collector.pdf"
+  const url = "https://wakarsuggestionsfb.vercel.app/35/6c93218c-faa3-45f5-8a0a-3e7089d781e3.export.pdf on CP to collector.pdf"
   const container = document.getElementById("pdf-viewer")
   renderPDF(pdfjs, url, container)
 })
